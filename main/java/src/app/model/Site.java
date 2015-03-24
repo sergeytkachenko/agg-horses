@@ -31,6 +31,10 @@ public class Site implements Serializable {
 	@OneToMany(mappedBy="site")
 	private List<Product> products;
 
+	//bi-directional many-to-one association to PropertiesSite
+	@OneToMany(mappedBy="site")
+	private List<PropertiesSite> propertiesSites;
+
 	public Site() {
 	}
 
@@ -100,6 +104,28 @@ public class Site implements Serializable {
 		product.setSite(null);
 
 		return product;
+	}
+
+	public List<PropertiesSite> getPropertiesSites() {
+		return this.propertiesSites;
+	}
+
+	public void setPropertiesSites(List<PropertiesSite> propertiesSites) {
+		this.propertiesSites = propertiesSites;
+	}
+
+	public PropertiesSite addPropertiesSite(PropertiesSite propertiesSite) {
+		getPropertiesSites().add(propertiesSite);
+		propertiesSite.setSite(this);
+
+		return propertiesSite;
+	}
+
+	public PropertiesSite removePropertiesSite(PropertiesSite propertiesSite) {
+		getPropertiesSites().remove(propertiesSite);
+		propertiesSite.setSite(null);
+
+		return propertiesSite;
 	}
 
 }

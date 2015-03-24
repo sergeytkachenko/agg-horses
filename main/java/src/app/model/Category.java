@@ -34,6 +34,14 @@ public class Category implements Serializable {
 	@OneToMany(mappedBy="category")
 	private List<CategoriesSite> categoriesSites;
 
+	//bi-directional many-to-one association to Product
+	@OneToMany(mappedBy="category")
+	private List<Product> products;
+
+	//bi-directional many-to-one association to PropertiesSite
+	@OneToMany(mappedBy="category")
+	private List<PropertiesSite> propertiesSites;
+
 	public Category() {
 	}
 
@@ -103,6 +111,50 @@ public class Category implements Serializable {
 		categoriesSite.setCategory(null);
 
 		return categoriesSite;
+	}
+
+	public List<Product> getProducts() {
+		return this.products;
+	}
+
+	public void setProducts(List<Product> products) {
+		this.products = products;
+	}
+
+	public Product addProduct(Product product) {
+		getProducts().add(product);
+		product.setCategory(this);
+
+		return product;
+	}
+
+	public Product removeProduct(Product product) {
+		getProducts().remove(product);
+		product.setCategory(null);
+
+		return product;
+	}
+
+	public List<PropertiesSite> getPropertiesSites() {
+		return this.propertiesSites;
+	}
+
+	public void setPropertiesSites(List<PropertiesSite> propertiesSites) {
+		this.propertiesSites = propertiesSites;
+	}
+
+	public PropertiesSite addPropertiesSite(PropertiesSite propertiesSite) {
+		getPropertiesSites().add(propertiesSite);
+		propertiesSite.setCategory(this);
+
+		return propertiesSite;
+	}
+
+	public PropertiesSite removePropertiesSite(PropertiesSite propertiesSite) {
+		getPropertiesSites().remove(propertiesSite);
+		propertiesSite.setCategory(null);
+
+		return propertiesSite;
 	}
 
 }

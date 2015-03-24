@@ -45,6 +45,7 @@ public class Proxies {
 
     @RequestMapping("/ping-proxies")
     public void pingProxies () throws IOException {
+        // TODO обрабатывать exception, set limit for ping
         List<Proxy> proxies = proxyRepositories.findAll();
         proxies.forEach(proxy->{
             float time = Ping.pingTime(proxy.getIp(), proxy.getPort());
@@ -54,7 +55,7 @@ public class Proxies {
                 return;
             }
             int pingedCount = (int) proxy.getPingedCount();
-            proxy.setPingedCount(pingedCount++);
+            proxy.setPingedCount(pingedCount+1);
 
             proxyRepositories.save(proxy);
         });
