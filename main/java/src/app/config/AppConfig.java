@@ -5,8 +5,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @Configuration
-@EnableJpaRepositories("ua.spring.crud")
+@EnableJpaRepositories("app.crud")
 @EnableWebMvc
+
 public class AppConfig {
 
 

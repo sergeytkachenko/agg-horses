@@ -5,7 +5,6 @@ import org.apache.http.impl.client.HttpClients;
 
 import java.io.IOException;
 
-
 public class Browser {
     CloseableHttpClient httpClient;
 

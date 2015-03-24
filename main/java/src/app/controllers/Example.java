@@ -10,6 +10,7 @@ import java.io.IOException;
 public class Example {
     @RequestMapping("/ping")
     public void ping () throws IOException {
-        Ping.pingTime("192.168.109.176", "80");
+        float time = Ping.pingTime("192.168.109.176", "80");
+        System.out.println(time);
     }
 }

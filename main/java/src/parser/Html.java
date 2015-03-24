@@ -17,9 +17,12 @@ import org.jsoup.nodes.Document;
 import java.io.IOException;
 
 public class Html {
-    int error = 0;
+
     public Document getHtmlDocument (String url, String ip, String port) throws IOException {
-        HttpHost proxy = new HttpHost(ip, Integer.valueOf(port), "http");
+        HttpHost proxy = null;
+        if(ip!=null && port!=null) {
+            proxy = new HttpHost(ip, Integer.valueOf(port), "http");
+        }
         System.out.println("proxy ip="+ip+", port="+port);
         CloseableHttpClient httpClient = new Browser().get();
 
@@ -27,14 +30,14 @@ public class Html {
         try {
 
             HttpGet httpget = new HttpGet(url);
+            RequestConfig.Builder custom = RequestConfig.custom();
 
-            RequestConfig config = RequestConfig.custom()
-                    .setProxy(proxy)
-                    .setConnectTimeout(1000*8)
-                    //.setConnectionRequestTimeout(2000)
-                    //.setSocketTimeout(1000)
-                    .build();
-            httpget.setConfig(config);
+            if(ip!=null && port!=null) { // set proxy
+                custom = custom.setProxy(proxy);
+            }
+            custom = custom.setConnectTimeout(1000*8);
+
+            httpget.setConfig(custom.build());
 
             // Create a custom response handler
             ResponseHandler<String> responseHandler = new ResponseHandler<String>() {
@@ -57,7 +60,6 @@ public class Html {
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
-            //e.printStackTrace();
         } finally {
             System.out.println("close "+url);
             httpClient.close();
@@ -66,4 +68,7 @@ public class Html {
         return doc;
     }
 
+    public Document getHtmlDocument (String url) throws IOException {
+        return getHtmlDocument(url, null, null);
+    }
 }
