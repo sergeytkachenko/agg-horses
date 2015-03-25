@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import parser.Html;
 
 import java.io.IOException;
+import java.util.Date;
 
 @RestController
 public class Category {
@@ -35,11 +36,11 @@ public class Category {
     @RequestMapping("/get-products-from-category")
     public void ping () throws IOException {
         Site site = sitesRepositories.findById(1);
-        CategoriesSite category = categoriesSitesRepositories.findById(1);
+        CategoriesSite categorySite = categoriesSitesRepositories.findById(1);
         Proxy proxy = proxyRepositories.findByBest();
         System.out.println(proxy);
-        String url = category.getPathUrl();
-        url = url.startsWith("http") ? url : site.getPath() + category.getPathUrl(); // url страницы без пагинации
+        String url = categorySite.getPathUrl();
+        url = url.startsWith("http") ? url : site.getPath() + categorySite.getPathUrl(); // url страницы без пагинации
         System.out.println(url);
 
         Html html = new Html();
@@ -71,14 +72,14 @@ public class Category {
                 if(countErrors > 5) break;
                 continue;
             }
-            Elements items = doc.select(category.getPageIteratorSelector());
+            Elements items = doc.select(categorySite.getPageIteratorSelector());
             if(items.size()==0) {
                 System.out.println("Items is empty");
                 countErrors++;
                 if(countErrors > 5) break;
             }
             items.forEach(item->{
-                Elements a = item.select(category.getASelector());
+                Elements a = item.select(categorySite.getASelector());
                 if(a!=null) {
                     String aHref = a.attr("href");
                     final String urlHash = md5PasswordEncoder.encodePassword(aHref, null);
@@ -90,6 +91,8 @@ public class Category {
                     product.setSite(site);
                     product.setPathHash(urlHash);
                     product.setTitle(a.text());
+                    product.setCategory(categorySite.getCategory());
+                    product.setDateCreate(new Date());
 
                     productsRepositories.save(product);
                 }

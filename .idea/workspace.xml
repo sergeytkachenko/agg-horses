@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0a715663-c10b-425c-92f4-a2aac9c2868c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/controllers/Category.java" afterPath="$PROJECT_DIR$/main/java/src/app/controllers/Category.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/crud/ProxyRepositories.java" afterPath="$PROJECT_DIR$/main/java/src/app/crud/ProxyRepositories.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/resources/hibernate.properties" afterPath="$PROJECT_DIR$/main/java/resources/hibernate.properties" />
     </list>
     <ignored path="aggregator-rent.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +53,8 @@
       <file leaf-file-name="Category.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/java/src/app/controllers/Category.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8033473" vertical-offset="714" max-vertical-offset="1602">
-              <caret line="77" column="34" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.7631579" vertical-offset="690" max-vertical-offset="1638">
+              <caret line="94" column="47" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -606,12 +604,12 @@
       <workItem from="1427121042979" duration="3233000" />
       <workItem from="1427204232058" duration="4599000" />
       <workItem from="1427211163493" duration="1453000" />
-      <workItem from="1427267155326" duration="6323000" />
+      <workItem from="1427267155326" duration="6478000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19508000" />
+    <option name="totallyTimeSpent" value="19663000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1924" height="1056" extended-state="0" />
@@ -639,7 +637,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46219382" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46219382" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -1136,8 +1134,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/java/src/app/controllers/Category.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8033473" vertical-offset="714" max-vertical-offset="1602">
-          <caret line="77" column="34" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.7631579" vertical-offset="690" max-vertical-offset="1638">
+          <caret line="94" column="47" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
           <folding />
         </state>
       </provider>
