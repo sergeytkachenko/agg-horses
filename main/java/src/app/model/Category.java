@@ -34,13 +34,13 @@ public class Category implements Serializable {
 	@OneToMany(mappedBy="category")
 	private List<CategoriesSite> categoriesSites;
 
+	//bi-directional many-to-one association to CategoryProperty
+	@OneToMany(mappedBy="category")
+	private List<CategoryProperty> categoryProperties;
+
 	//bi-directional many-to-one association to Product
 	@OneToMany(mappedBy="category")
 	private List<Product> products;
-
-	//bi-directional many-to-one association to PropertiesSite
-	@OneToMany(mappedBy="category")
-	private List<PropertiesSite> propertiesSites;
 
 	public Category() {
 	}
@@ -113,6 +113,28 @@ public class Category implements Serializable {
 		return categoriesSite;
 	}
 
+	public List<CategoryProperty> getCategoryProperties() {
+		return this.categoryProperties;
+	}
+
+	public void setCategoryProperties(List<CategoryProperty> categoryProperties) {
+		this.categoryProperties = categoryProperties;
+	}
+
+	public CategoryProperty addCategoryProperty(CategoryProperty categoryProperty) {
+		getCategoryProperties().add(categoryProperty);
+		categoryProperty.setCategory(this);
+
+		return categoryProperty;
+	}
+
+	public CategoryProperty removeCategoryProperty(CategoryProperty categoryProperty) {
+		getCategoryProperties().remove(categoryProperty);
+		categoryProperty.setCategory(null);
+
+		return categoryProperty;
+	}
+
 	public List<Product> getProducts() {
 		return this.products;
 	}
@@ -133,28 +155,6 @@ public class Category implements Serializable {
 		product.setCategory(null);
 
 		return product;
-	}
-
-	public List<PropertiesSite> getPropertiesSites() {
-		return this.propertiesSites;
-	}
-
-	public void setPropertiesSites(List<PropertiesSite> propertiesSites) {
-		this.propertiesSites = propertiesSites;
-	}
-
-	public PropertiesSite addPropertiesSite(PropertiesSite propertiesSite) {
-		getPropertiesSites().add(propertiesSite);
-		propertiesSite.setCategory(this);
-
-		return propertiesSite;
-	}
-
-	public PropertiesSite removePropertiesSite(PropertiesSite propertiesSite) {
-		getPropertiesSites().remove(propertiesSite);
-		propertiesSite.setCategory(null);
-
-		return propertiesSite;
 	}
 
 }

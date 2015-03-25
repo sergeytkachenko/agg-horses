@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.2.10
+-- version 4.3.12
 -- http://www.phpmyadmin.net
 --
 -- Хост: localhost
--- Время создания: Мар 24 2015 г., 21:13
--- Версия сервера: 5.6.21
--- Версия PHP: 5.5.14
+-- Время создания: Мар 25 2015 г., 08:00
+-- Версия сервера: 5.5.37-0ubuntu0.13.10.1
+-- Версия PHP: 5.5.3-1ubuntu2.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE IF NOT EXISTS `categories` (
-`id` int(11) NOT NULL,
+  `id` int(11) NOT NULL,
   `title` varchar(255) NOT NULL COMMENT 'категория (аренда, покупка и тд.)',
   `parent_id` int(11) DEFAULT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
@@ -46,7 +46,7 @@ INSERT INTO `categories` (`id`, `title`, `parent_id`) VALUES
 --
 
 CREATE TABLE IF NOT EXISTS `categories_sites` (
-`id` int(11) NOT NULL,
+  `id` int(11) NOT NULL,
   `site_id` int(11) NOT NULL,
   `category_id` int(11) NOT NULL,
   `path_url` varchar(255) NOT NULL,
@@ -65,11 +65,33 @@ INSERT INTO `categories_sites` (`id`, `site_id`, `category_id`, `path_url`, `pag
 -- --------------------------------------------------------
 
 --
+-- Структура таблицы `category_properties`
+--
+
+CREATE TABLE IF NOT EXISTS `category_properties` (
+  `id` int(11) NOT NULL,
+  `property_id` int(11) NOT NULL,
+  `category_id` int(11) NOT NULL,
+  `value_selector` varchar(255) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `category_properties`
+--
+
+INSERT INTO `category_properties` (`id`, `property_id`, `category_id`, `value_selector`) VALUES
+(1, 1, 1, '.left-bar-view > div.delimeter:eq(1) p.item-param:eq(2)  strong'),
+(2, 2, 1, '.price-seller > .price'),
+(3, 3, 1, '.price-seller > .price + span ');
+
+-- --------------------------------------------------------
+
+--
 -- Структура таблицы `products`
 --
 
 CREATE TABLE IF NOT EXISTS `products` (
-`id` int(11) NOT NULL,
+  `id` int(11) NOT NULL,
   `path_url` varchar(255) NOT NULL,
   `path_hash` varchar(155) NOT NULL,
   `category_id` int(11) DEFAULT NULL,
@@ -3909,11 +3931,49 @@ INSERT INTO `products` (`id`, `path_url`, `path_hash`, `category_id`, `site_id`,
 --
 
 CREATE TABLE IF NOT EXISTS `product_properties` (
-`id` int(11) NOT NULL,
-  `product_id` int(11) NOT NULL,
-  `property_id` int(11) NOT NULL,
-  `value` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  `id` int(11) NOT NULL,
+  `product_id` int(11) DEFAULT NULL,
+  `property_id` int(11) DEFAULT NULL,
+  `value` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `product_properties`
+--
+
+INSERT INTO `product_properties` (`id`, `product_id`, `property_id`, `value`) VALUES
+(1, 1, 1, '2'),
+(2, 1, 2, '18 552'),
+(3, 1, 3, 'грн'),
+(4, 2, 1, '3'),
+(5, 2, 2, '25 000'),
+(6, 2, 3, 'грн'),
+(7, 3, 1, '3'),
+(8, 3, 2, '88 124'),
+(9, 3, 3, 'грн'),
+(10, 4, 1, '1'),
+(11, 4, 2, '3 600'),
+(12, 4, 3, 'грн'),
+(13, 5, 1, '2'),
+(14, 5, 2, '10 000'),
+(15, 5, 3, 'грн'),
+(16, 6, 1, '1'),
+(17, 6, 2, '9 000'),
+(18, 6, 3, 'грн'),
+(19, 7, 1, '3'),
+(20, 7, 2, '231 906'),
+(21, 7, 3, 'грн'),
+(22, 8, 1, '3'),
+(23, 8, 2, '7 500'),
+(24, 8, 3, 'грн'),
+(25, 9, 1, '2'),
+(26, 9, 2, '8 000'),
+(27, 9, 3, 'грн'),
+(28, 10, 1, '2'),
+(29, 10, 2, '5 000'),
+(30, 10, 3, 'грн'),
+(31, 11, 1, '5'),
+(32, 11, 2, 'договорная');
 
 -- --------------------------------------------------------
 
@@ -3922,9 +3982,9 @@ CREATE TABLE IF NOT EXISTS `product_properties` (
 --
 
 CREATE TABLE IF NOT EXISTS `properties` (
-`id` int(11) NOT NULL,
+  `id` int(11) NOT NULL,
   `title` varchar(255) DEFAULT NULL COMMENT 'name of property, example - «count rooms»'
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 --
 -- Дамп данных таблицы `properties`
@@ -3932,29 +3992,8 @@ CREATE TABLE IF NOT EXISTS `properties` (
 
 INSERT INTO `properties` (`id`, `title`) VALUES
 (1, 'Количество комнат'),
-(2, 'Цена');
-
--- --------------------------------------------------------
-
---
--- Структура таблицы `properties_sites`
---
-
-CREATE TABLE IF NOT EXISTS `properties_sites` (
-`id` int(11) NOT NULL,
-  `property_id` int(11) NOT NULL,
-  `site_id` int(11) NOT NULL,
-  `category_id` int(11) NOT NULL,
-  `value_selector` varchar(255) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
-
---
--- Дамп данных таблицы `properties_sites`
---
-
-INSERT INTO `properties_sites` (`id`, `property_id`, `site_id`, `category_id`, `value_selector`) VALUES
-(1, 1, 0, 0, 'div.characteristic.delimeter > p:eq(2) > strong'),
-(2, 2, 0, 0, '.price.bold');
+(2, 'Цена'),
+(3, 'Валюта(грн,$, ...)');
 
 -- --------------------------------------------------------
 
@@ -3963,34 +4002,41 @@ INSERT INTO `properties_sites` (`id`, `property_id`, `site_id`, `category_id`, `
 --
 
 CREATE TABLE IF NOT EXISTS `proxies` (
-`id` int(11) NOT NULL,
+  `id` int(11) NOT NULL,
   `ip` varchar(255) NOT NULL,
   `port` varchar(255) NOT NULL,
   `timeout` int(11) NOT NULL,
   `pinged_count` int(11) NOT NULL,
   `is_worked` tinyint(1) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=577 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=773 DEFAULT CHARSET=utf8;
 
 --
 -- Дамп данных таблицы `proxies`
 --
 
 INSERT INTO `proxies` (`id`, `ip`, `port`, `timeout`, `pinged_count`, `is_worked`) VALUES
-(1, '107.182.17.9', '7808', 8067, 3, 0),
-(5, '162.208.49.45', '7808', 5976, 3, 0),
-(87, '97.77.104.22', '3128', 2426, 3, 0),
-(98, '216.56.4.84', '8080', 2426, 3, 0),
-(100, '206.15.240.120', '8080', 926, 3, 0),
-(104, '207.91.10.234', '8080', 608, 3, 0),
-(115, '199.200.120.36', '3127', 12240, 3, 0),
-(222, '165.138.66.247', '8080', 699, 2, 0),
-(354, '67.228.0.196', '80', 707, 3, 0),
-(382, '152.26.69.30', '8080', 2217, 3, 0),
-(384, '152.26.69.41', '8080', 1930, 3, 0),
-(386, '152.26.69.40', '8080', 5150, 2, 0),
-(394, '178.62.57.93', '8118', 779, 2, 0),
-(575, '152.26.69.38', '8080', 3381, 1, 0),
-(576, '152.26.69.36', '8080', 2348, 1, 0);
+(1, '107.182.17.9', '7808', 18321, 4, 0),
+(5, '162.208.49.45', '7808', 1476, 4, 0),
+(87, '97.77.104.22', '3128', 2919, 4, 0),
+(98, '216.56.4.84', '8080', 2114, 4, 0),
+(100, '206.15.240.120', '8080', 973, 4, 0),
+(104, '207.91.10.234', '8080', 705, 4, 0),
+(115, '199.200.120.36', '3127', 8590, 4, 0),
+(222, '165.138.66.247', '8080', 872, 3, 0),
+(586, '107.182.17.149', '7808', 8925, 1, 0),
+(624, '72.77.37.81', '8080', 31239, 1, 0),
+(642, '69.64.59.126', '3128', 4362, 1, 0),
+(644, '146.148.120.126', '3128', 738, 1, 0),
+(649, '166.130.90.189', '8080', 4597, 1, 0),
+(655, '54.169.47.86', '8080', 2517, 1, 0),
+(667, '72.64.146.136', '3128', 22381, 1, 0),
+(668, '104.154.58.149', '3128', 2013, 1, 0),
+(669, '173.218.180.170', '8080', 906, 1, 0),
+(674, '169.139.65.182', '8080', 1007, 1, 0),
+(678, '54.161.139.184', '5555', 9026, 1, 0),
+(682, '104.42.27.181', '3128', 1107, 1, 0),
+(685, '104.154.40.81', '3128', 17750, 1, 0),
+(699, '199.200.120.37', '7808', 9764, 1, 0);
 
 -- --------------------------------------------------------
 
@@ -3999,7 +4045,7 @@ INSERT INTO `proxies` (`id`, `ip`, `port`, `timeout`, `pinged_count`, `is_worked
 --
 
 CREATE TABLE IF NOT EXISTS `sites` (
-`id` int(11) NOT NULL,
+  `id` int(11) NOT NULL,
   `path` varchar(255) NOT NULL,
   `page` varchar(100) NOT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
@@ -4020,49 +4066,49 @@ INSERT INTO `sites` (`id`, `path`, `page`) VALUES
 -- Индексы таблицы `categories`
 --
 ALTER TABLE `categories`
- ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Индексы таблицы `categories_sites`
 --
 ALTER TABLE `categories_sites`
- ADD PRIMARY KEY (`id`), ADD KEY `fk_categories_sites_1_idx` (`site_id`), ADD KEY `fk_categories_sites_2_idx` (`category_id`);
+  ADD PRIMARY KEY (`id`), ADD KEY `fk_categories_sites_1_idx` (`site_id`), ADD KEY `fk_categories_sites_2_idx` (`category_id`);
+
+--
+-- Индексы таблицы `category_properties`
+--
+ALTER TABLE `category_properties`
+  ADD PRIMARY KEY (`id`), ADD KEY `index3` (`property_id`), ADD KEY `index4` (`category_id`);
 
 --
 -- Индексы таблицы `products`
 --
 ALTER TABLE `products`
- ADD PRIMARY KEY (`id`), ADD KEY `fk_products_1_idx` (`site_id`), ADD KEY `fk_products_2_idx` (`category_id`);
+  ADD PRIMARY KEY (`id`), ADD KEY `fk_products_1_idx` (`site_id`), ADD KEY `fk_products_2_idx` (`category_id`);
 
 --
 -- Индексы таблицы `product_properties`
 --
 ALTER TABLE `product_properties`
- ADD PRIMARY KEY (`id`), ADD KEY `fk_pp_2_idx` (`property_id`), ADD KEY `index3` (`value`), ADD KEY `index4` (`product_id`);
+  ADD PRIMARY KEY (`id`), ADD KEY `index3` (`value`), ADD KEY `fk_product_properties_1_idx` (`product_id`), ADD KEY `fk_product_properties_2_idx` (`property_id`);
 
 --
 -- Индексы таблицы `properties`
 --
 ALTER TABLE `properties`
- ADD PRIMARY KEY (`id`);
-
---
--- Индексы таблицы `properties_sites`
---
-ALTER TABLE `properties_sites`
- ADD PRIMARY KEY (`id`), ADD KEY `index3` (`property_id`), ADD KEY `index4` (`category_id`), ADD KEY `fk_properties_sites_3` (`site_id`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Индексы таблицы `proxies`
 --
 ALTER TABLE `proxies`
- ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Индексы таблицы `sites`
 --
 ALTER TABLE `sites`
- ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- AUTO_INCREMENT для сохранённых таблиц
@@ -4072,42 +4118,42 @@ ALTER TABLE `sites`
 -- AUTO_INCREMENT для таблицы `categories`
 --
 ALTER TABLE `categories`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT для таблицы `categories_sites`
 --
 ALTER TABLE `categories_sites`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
+--
+-- AUTO_INCREMENT для таблицы `category_properties`
+--
+ALTER TABLE `category_properties`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT для таблицы `products`
 --
 ALTER TABLE `products`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3808;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3808;
 --
 -- AUTO_INCREMENT для таблицы `product_properties`
 --
 ALTER TABLE `product_properties`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=33;
 --
 -- AUTO_INCREMENT для таблицы `properties`
 --
 ALTER TABLE `properties`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
---
--- AUTO_INCREMENT для таблицы `properties_sites`
---
-ALTER TABLE `properties_sites`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT для таблицы `proxies`
 --
 ALTER TABLE `proxies`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=577;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=773;
 --
 -- AUTO_INCREMENT для таблицы `sites`
 --
 ALTER TABLE `sites`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
 --
 -- Ограничения внешнего ключа сохраненных таблиц
 --
@@ -4120,26 +4166,25 @@ ADD CONSTRAINT `fk_categories_sites_1` FOREIGN KEY (`site_id`) REFERENCES `sites
 ADD CONSTRAINT `fk_categories_sites_2` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
+-- Ограничения внешнего ключа таблицы `category_properties`
+--
+ALTER TABLE `category_properties`
+ADD CONSTRAINT `fk_category_properties_2` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+ADD CONSTRAINT `fk_category_properties_1` FOREIGN KEY (`property_id`) REFERENCES `properties` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+--
 -- Ограничения внешнего ключа таблицы `products`
 --
 ALTER TABLE `products`
 ADD CONSTRAINT `fk_products_1` FOREIGN KEY (`site_id`) REFERENCES `sites` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-ADD CONSTRAINT `fk_products_2` FOREIGN KEY (`category_id`) REFERENCES `aggregator-rent`.`categories` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+ADD CONSTRAINT `fk_products_2` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
 -- Ограничения внешнего ключа таблицы `product_properties`
 --
 ALTER TABLE `product_properties`
-ADD CONSTRAINT `fk_pp_1` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-ADD CONSTRAINT `fk_pp_2` FOREIGN KEY (`property_id`) REFERENCES `properties` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
-
---
--- Ограничения внешнего ключа таблицы `properties_sites`
---
-ALTER TABLE `properties_sites`
-ADD CONSTRAINT `fk_properties_sites_2` FOREIGN KEY (`property_id`) REFERENCES `aggregator-rent`.`properties` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-ADD CONSTRAINT `fk_properties_sites_3` FOREIGN KEY (`site_id`) REFERENCES `aggregator-rent`.`sites` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-ADD CONSTRAINT `fk_properties_sites_4` FOREIGN KEY (`category_id`) REFERENCES `aggregator-rent`.`categories` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+ADD CONSTRAINT `fk_product_properties_1` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+ADD CONSTRAINT `fk_product_properties_2` FOREIGN KEY (`property_id`) REFERENCES `properties` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

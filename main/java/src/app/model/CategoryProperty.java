@@ -3,15 +3,10 @@ package app.model;
 import java.io.Serializable;
 import javax.persistence.*;
 
-
-/**
- * The persistent class for the properties_sites database table.
- * 
- */
 @Entity
-@Table(name="properties_sites")
-@NamedQuery(name="PropertiesSite.findAll", query="SELECT p FROM PropertiesSite p")
-public class PropertiesSite implements Serializable {
+@Table(name="category_properties")
+@NamedQuery(name="CategoryProperty.findAll", query="SELECT c FROM CategoryProperty c")
+public class CategoryProperty implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
@@ -29,11 +24,7 @@ public class PropertiesSite implements Serializable {
 	@ManyToOne
 	private Property property;
 
-	//bi-directional many-to-one association to Site
-	@ManyToOne
-	private Site site;
-
-	public PropertiesSite() {
+	public CategoryProperty() {
 	}
 
 	public int getId() {
@@ -66,14 +57,6 @@ public class PropertiesSite implements Serializable {
 
 	public void setProperty(Property property) {
 		this.property = property;
-	}
-
-	public Site getSite() {
-		return this.site;
-	}
-
-	public void setSite(Site site) {
-		this.site = site;
 	}
 
 }

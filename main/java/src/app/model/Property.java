@@ -21,13 +21,13 @@ public class Property implements Serializable {
 
 	private String title;
 
+	//bi-directional many-to-one association to CategoryProperty
+	@OneToMany(mappedBy="property")
+	private List<CategoryProperty> categoryProperties;
+
 	//bi-directional many-to-one association to ProductProperty
 	@OneToMany(mappedBy="property")
 	private List<ProductProperty> productProperties;
-
-	//bi-directional many-to-one association to PropertiesSite
-	@OneToMany(mappedBy="property")
-	private List<PropertiesSite> propertiesSites;
 
 	public Property() {
 	}
@@ -46,6 +46,28 @@ public class Property implements Serializable {
 
 	public void setTitle(String title) {
 		this.title = title;
+	}
+
+	public List<CategoryProperty> getCategoryProperties() {
+		return this.categoryProperties;
+	}
+
+	public void setCategoryProperties(List<CategoryProperty> categoryProperties) {
+		this.categoryProperties = categoryProperties;
+	}
+
+	public CategoryProperty addCategoryProperty(CategoryProperty categoryProperty) {
+		getCategoryProperties().add(categoryProperty);
+		categoryProperty.setProperty(this);
+
+		return categoryProperty;
+	}
+
+	public CategoryProperty removeCategoryProperty(CategoryProperty categoryProperty) {
+		getCategoryProperties().remove(categoryProperty);
+		categoryProperty.setProperty(null);
+
+		return categoryProperty;
 	}
 
 	public List<ProductProperty> getProductProperties() {
@@ -68,28 +90,6 @@ public class Property implements Serializable {
 		productProperty.setProperty(null);
 
 		return productProperty;
-	}
-
-	public List<PropertiesSite> getPropertiesSites() {
-		return this.propertiesSites;
-	}
-
-	public void setPropertiesSites(List<PropertiesSite> propertiesSites) {
-		this.propertiesSites = propertiesSites;
-	}
-
-	public PropertiesSite addPropertiesSite(PropertiesSite propertiesSite) {
-		getPropertiesSites().add(propertiesSite);
-		propertiesSite.setProperty(this);
-
-		return propertiesSite;
-	}
-
-	public PropertiesSite removePropertiesSite(PropertiesSite propertiesSite) {
-		getPropertiesSites().remove(propertiesSite);
-		propertiesSite.setProperty(null);
-
-		return propertiesSite;
 	}
 
 }

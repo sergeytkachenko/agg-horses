@@ -1,10 +1,11 @@
 package app.controllers;
 
 import app.crud.*;
-import app.model.*;
-import app.model.Category;
+import app.model.CategoryProperty;
+import app.model.ProductProperty;
+import app.model.Proxy;
+import app.model.Site;
 import org.jsoup.nodes.Document;
-import org.jsoup.select.Elements;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.security.authentication.encoding.Md5PasswordEncoder;
@@ -23,11 +24,15 @@ public class Product {
     @Autowired
     ProxyRepositories proxyRepositories;
     @Autowired
+    CategoriesRepositories categoriesRepositories;
+    @Autowired
     CategoriesSitesRepositories categoriesSitesRepositories;
+    @Autowired
+    ProductPropertiesRepositories productPropertiesRepositories;
     @Autowired
     ProductsRepositories productsRepositories;
     @Autowired
-    PropertiesSiteRepositories propertiesSiteRepositories;
+    CategoryPropertiesRepositories propertiesSiteRepositories;
     @Autowired
     Md5PasswordEncoder md5PasswordEncoder;
 
@@ -40,19 +45,31 @@ public class Product {
 
         for(app.model.Product product : products) {
             // TODO релаизовать нормально
-            List<PropertiesSite> properties =
-                    propertiesSiteRepositories.findByCategorySites(categoriesSitesRepositories.findById(2));
+            List<CategoryProperty> properties =
+                    propertiesSiteRepositories.findByCategory(product.getCategory());
 
-            String url = product.getPathUrl();
+            Site site = product.getSite();
+
+            String url = site.getPath() + product.getPathUrl();
             Document doc = html.getHtmlDocument(url, proxy.getIp(), proxy.getPort());
 
-            for(PropertiesSite prop : properties) {
+            for(CategoryProperty prop : properties) {
                 String selector = prop.getValueSelector();
-                Elements value = doc.select(selector);
-                System.out.println(value);
+                String value = doc.select(selector).text();
+                if(value==null || value.isEmpty()) {
+                    // TODO правильная обработка ошибок
+                    //throw new RuntimeException("Свойство не может быть пустым, url = "+url+", selector = "+selector);
+                }
+                ProductProperty productProperty =
+                        productPropertiesRepositories.findByProductAndProperty(product, prop.getProperty());
+                productProperty = productProperty!=null ? productProperty : new ProductProperty();
+                productProperty.setProduct(product);
+                productProperty.setProperty(prop.getProperty());
+                productProperty.setValue(value);
+
+                productPropertiesRepositories.save(productProperty);
             }
 
-            return;
         }
 
     }
