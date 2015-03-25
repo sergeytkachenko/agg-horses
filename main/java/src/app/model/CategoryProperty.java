@@ -3,6 +3,11 @@ package app.model;
 import java.io.Serializable;
 import javax.persistence.*;
 
+
+/**
+ * The persistent class for the category_properties database table.
+ * 
+ */
 @Entity
 @Table(name="category_properties")
 @NamedQuery(name="CategoryProperty.findAll", query="SELECT c FROM CategoryProperty c")

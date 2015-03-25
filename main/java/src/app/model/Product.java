@@ -34,6 +34,8 @@ public class Product implements Serializable {
 	@Column(name="path_url")
 	private String pathUrl;
 
+	private String title;
+
 	//bi-directional many-to-one association to ProductProperty
 	@OneToMany(mappedBy="product")
 	private List<ProductProperty> productProperties;
@@ -87,6 +89,14 @@ public class Product implements Serializable {
 
 	public void setPathUrl(String pathUrl) {
 		this.pathUrl = pathUrl;
+	}
+
+	public String getTitle() {
+		return this.title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
 	}
 
 	public List<ProductProperty> getProductProperties() {

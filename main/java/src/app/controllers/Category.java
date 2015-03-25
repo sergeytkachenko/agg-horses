@@ -43,8 +43,8 @@ public class Category {
         System.out.println(url);
 
         Html html = new Html();
-        // проъодимся по всем страницам
-        for (int i = 1, countErrro=0; i < 3000; i++) {
+        // проходимся по всем страницам
+        for (int i = 1, countErrors=0; i < 3000; i++) {
             String urlInPage = url;
             if(i!=1) {
                 // added number page for url
@@ -60,8 +60,8 @@ public class Category {
             Elements items = doc.select(category.getPageIteratorSelector());
             if(items.size()==0) {
                 System.out.println("Items is empty");
-                countErrro++;
-                if(countErrro > 3) break;
+                countErrors++;
+                if(countErrors > 3) break;
             }
             items.forEach(item->{
                 Elements a = item.select(category.getASelector());
