@@ -11,7 +11,6 @@ import app.model.Site;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Sort;
 import org.springframework.security.authentication.encoding.Md5PasswordEncoder;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -35,11 +34,12 @@ public class Category {
 
     @RequestMapping("/get-products-from-category")
     public void ping () throws IOException {
-        Site site = sitesRepositories.findById(2);
-        CategoriesSite category = categoriesSitesRepositories.findById(2);
-        Proxy proxy = proxyRepositories.findAll(new Sort(Sort.Direction.ASC, "timeout")).iterator().next();
-
-        String url = site.getPath() + category.getPathUrl(); // url страницы без пагинации
+        Site site = sitesRepositories.findById(1);
+        CategoriesSite category = categoriesSitesRepositories.findById(1);
+        Proxy proxy = proxyRepositories.findByBest();
+        System.out.println(proxy);
+        String url = category.getPathUrl();
+        url = url.startsWith("http") ? url : site.getPath() + category.getPathUrl(); // url страницы без пагинации
         System.out.println(url);
 
         Html html = new Html();
@@ -49,19 +49,33 @@ public class Category {
             if(i!=1) {
                 // added number page for url
                 String page = site.getPage().replace("{n}", String.valueOf(i));
-                urlInPage = url.contains("?") ? url + "&" + page : url + "?" + page;
+                if(url.contains("?")) {
+                    if(!page.startsWith("/")) {
+                        urlInPage = url + "&" + page;
+                    } else {
+                        urlInPage = url + page;
+                    }
+                } else {
+                    if(!page.startsWith("/")) {
+                        urlInPage = url + "?" + page;
+                    } else {
+                        urlInPage = url + page;
+                    }
+                }
             }
-
+            System.out.println(urlInPage);
             Document doc = html.getHtmlDocument(urlInPage, proxy.getIp(), proxy.getPort());
             if(doc==null) {
                 System.out.println("Document is NULL");
+                countErrors++;
+                if(countErrors > 5) break;
                 continue;
             }
             Elements items = doc.select(category.getPageIteratorSelector());
             if(items.size()==0) {
                 System.out.println("Items is empty");
                 countErrors++;
-                if(countErrors > 3) break;
+                if(countErrors > 5) break;
             }
             items.forEach(item->{
                 Elements a = item.select(category.getASelector());
@@ -75,6 +89,7 @@ public class Category {
                     product.setPathUrl(aHref);
                     product.setSite(site);
                     product.setPathHash(urlHash);
+                    product.setTitle(a.text());
 
                     productsRepositories.save(product);
                 }
