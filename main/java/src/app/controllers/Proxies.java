@@ -48,7 +48,13 @@ public class Proxies {
         // TODO обрабатывать exception, set limit for ping
         List<Proxy> proxies = proxyRepositories.findAll();
         proxies.forEach(proxy->{
-            float time = Ping.pingTime(proxy.getIp(), proxy.getPort());
+            float time = Integer.MAX_VALUE;
+            try {
+                time = Ping.pingTime(proxy.getIp(), proxy.getPort());
+            }
+            catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
             proxy.setTimeout(Math.round(time));
             if(time == Integer.MAX_VALUE) {
                 proxyRepositories.delete(proxy);

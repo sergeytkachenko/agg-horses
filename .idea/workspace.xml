@@ -2,7 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a715663-c10b-425c-92f4-a2aac9c2868c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/City.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/City_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/Country.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/Country_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/ProductPhoto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/ProductPhoto_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/Region.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/Region_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/Salesman.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/SalesmanPhone.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/SalesmanPhone_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/Salesman_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/controllers/Category.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/controllers/Category.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/controllers/Product.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/controllers/Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Product.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Product_.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Product_.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/controllers/Proxies.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/controllers/Proxies.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/CategoriesSite.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/CategoriesSite.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/CategoriesSite_.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/CategoriesSite_.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/controllers/Category.java" afterPath="$PROJECT_DIR$/main/java/src/app/controllers/Category.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/CategoryProperty_.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/CategoryProperty_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/Category_.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/Category_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/controllers/Product.java" afterPath="$PROJECT_DIR$/main/java/src/app/controllers/Product.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/Product.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/Product.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/ProductProperty_.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/ProductProperty_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/Product_.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/Product_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/Property_.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/Property_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/controllers/Proxies.java" afterPath="$PROJECT_DIR$/main/java/src/app/controllers/Proxies.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/Proxy_.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/Proxy_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/Site_.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/Site_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/aggregator-rent.sql" afterPath="$PROJECT_DIR$/sql/aggregator-rent.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/resources/hibernate.properties" afterPath="$PROJECT_DIR$/main/java/resources/hibernate.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/hibernate.properties" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/hibernate.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="aggregator-rent.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,34 +73,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/java/src/app/controllers/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="258" max-vertical-offset="1224">
-              <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.4853273" vertical-offset="811" max-vertical-offset="1422">
+              <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Category.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Category.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/java/src/app/controllers/Category.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7631579" vertical-offset="690" max-vertical-offset="1638">
-              <caret line="94" column="47" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="1638">
+              <caret line="39" column="53" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="53" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProxyRepositories.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/java/src/app/crud/ProxyRepositories.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -75,8 +96,8 @@
       <file leaf-file-name="Proxies.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/java/src/app/controllers/Proxies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1386">
-              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="1494">
+              <caret line="55" column="49" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,7 +125,6 @@
         <option value="$PROJECT_DIR$/main/java/src/app/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/main/java/src/Main.java" />
         <option value="$PROJECT_DIR$/main/java/src/app/Main.java" />
-        <option value="$PROJECT_DIR$/main/java/src/app/controllers/Proxies.java" />
         <option value="$PROJECT_DIR$/main/java/src/app/crud/SitesRepositories.java" />
         <option value="$PROJECT_DIR$/main/java/src/app/crud/CategorySitesRepositories.java" />
         <option value="$PROJECT_DIR$/main/java/src/app/crud/CategoriesSitesRepositories.java" />
@@ -115,11 +135,13 @@
         <option value="$PROJECT_DIR$/main/java/src/app/crud/CategoryPropertiesRepositories.java" />
         <option value="$PROJECT_DIR$/main/java/src/app/crud/CategoriesRepositories.java" />
         <option value="$PROJECT_DIR$/main/java/src/app/crud/ProductPropertiesRepositories.java" />
-        <option value="$PROJECT_DIR$/main/java/src/app/controllers/Product.java" />
         <option value="$PROJECT_DIR$/main/java/src/app/model/Site_.java" />
-        <option value="$PROJECT_DIR$/main/java/resources/hibernate.properties" />
         <option value="$PROJECT_DIR$/main/java/src/app/crud/ProxyRepositories.java" />
+        <option value="$PROJECT_DIR$/main/java/resources/hibernate.properties" />
         <option value="$PROJECT_DIR$/main/java/src/app/controllers/Category.java" />
+        <option value="$PROJECT_DIR$/main/java/src/app/controllers/Proxies.java" />
+        <option value="$PROJECT_DIR$/main/java/src/app/model/ProductProperty_.java" />
+        <option value="$PROJECT_DIR$/main/java/src/app/controllers/Product.java" />
       </list>
     </option>
   </component>
@@ -176,6 +198,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,7 +291,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="crud" />
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aggregator-rent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aggregator-rent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -292,7 +345,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -604,16 +656,18 @@
       <workItem from="1427121042979" duration="3233000" />
       <workItem from="1427204232058" duration="4599000" />
       <workItem from="1427211163493" duration="1453000" />
-      <workItem from="1427267155326" duration="6478000" />
+      <workItem from="1427267155326" duration="7158000" />
+      <workItem from="1427296577073" duration="868000" />
+      <workItem from="1427364881025" duration="3575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19663000" />
+    <option name="totallyTimeSpent" value="24786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1924" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -629,7 +683,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50692225" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -637,7 +691,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46219382" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.485623" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -705,7 +759,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -736,7 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="612">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,7 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1044" max-vertical-offset="1206">
           <caret line="71" column="15" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,9 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="396">
           <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,7 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="630">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -798,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1116">
           <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -831,9 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -841,7 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="630">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,7 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1116">
           <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,9 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1008,7 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.078947365" vertical-offset="0" max-vertical-offset="912">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1025,7 +1063,7 @@
         <state vertical-scroll-proportion="0.25657895" vertical-offset="0" max-vertical-offset="912">
           <caret line="13" column="66" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="66" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1034,9 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19736843" vertical-offset="0" max-vertical-offset="912">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1044,7 +1079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.80263156" vertical-offset="294" max-vertical-offset="1206">
           <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1064,7 +1098,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/src/app/model/Site_.java">
+    <entry file="dbDummy://db-console:/c60e2315/d8b35638-d273-4744-b9d8-89ac6b7adcc3/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/src/app/crud/ProxyRepositories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29605263" vertical-offset="0" max-vertical-offset="912">
+          <caret line="15" column="92" selection-start-line="15" selection-start-column="92" selection-end-line="15" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/resources/hibernate.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912">
+          <caret line="0" column="70" selection-start-line="0" selection-start-column="70" selection-end-line="0" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/src/app/controllers/Proxies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="1494">
+          <caret line="55" column="49" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/src/app/crud/ProductPropertiesRepositories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23762377" vertical-offset="0" max-vertical-offset="396">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/src/app/controllers/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="1638">
+          <caret line="39" column="53" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/src/app/model/ProductProperty_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1072,70 +1156,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/src/app/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.118421055" vertical-offset="108" max-vertical-offset="1944">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/resources/hibernate.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.118421055" vertical-offset="0" max-vertical-offset="912">
-          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/java/src/app/controllers/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="258" max-vertical-offset="1224">
-          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/src/app/crud/ProductPropertiesRepositories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15789473" vertical-offset="0" max-vertical-offset="912">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/c60e2315/d8b35638-d273-4744-b9d8-89ac6b7adcc3/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/src/app/crud/ProxyRepositories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/src/app/controllers/Proxies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1386">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/src/app/controllers/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7631579" vertical-offset="690" max-vertical-offset="1638">
-          <caret line="94" column="47" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.4853273" vertical-offset="811" max-vertical-offset="1422">
+          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
           <folding />
         </state>
       </provider>

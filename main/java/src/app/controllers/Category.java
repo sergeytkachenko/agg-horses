@@ -35,8 +35,8 @@ public class Category {
 
     @RequestMapping("/get-products-from-category")
     public void ping () throws IOException {
-        Site site = sitesRepositories.findById(1);
-        CategoriesSite categorySite = categoriesSitesRepositories.findById(1);
+        Site site = sitesRepositories.findById(2);
+        CategoriesSite categorySite = categoriesSitesRepositories.findById(2);
         Proxy proxy = proxyRepositories.findByBest();
         System.out.println(proxy);
         String url = categorySite.getPathUrl();

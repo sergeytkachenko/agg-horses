@@ -20,6 +20,9 @@ public class Product implements Serializable {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int id;
 
+	@Lob
+	private String address;
+
 	@Temporal(TemporalType.TIMESTAMP)
 	@Column(name="date_create")
 	private Date dateCreate;
@@ -28,6 +31,8 @@ public class Product implements Serializable {
 	@Column(name="date_update")
 	private Date dateUpdate;
 
+	private String description;
+
 	@Column(name="path_hash")
 	private String pathHash;
 
@@ -35,6 +40,10 @@ public class Product implements Serializable {
 	private String pathUrl;
 
 	private String title;
+
+	//bi-directional many-to-one association to ProductPhoto
+	@OneToMany(mappedBy="product")
+	private List<ProductPhoto> productPhotos;
 
 	//bi-directional many-to-one association to ProductProperty
 	@OneToMany(mappedBy="product")
@@ -59,6 +68,14 @@ public class Product implements Serializable {
 		this.id = id;
 	}
 
+	public String getAddress() {
+		return this.address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
 	public Date getDateCreate() {
 		return this.dateCreate;
 	}
@@ -73,6 +90,14 @@ public class Product implements Serializable {
 
 	public void setDateUpdate(Date dateUpdate) {
 		this.dateUpdate = dateUpdate;
+	}
+
+	public String getDescription() {
+		return this.description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
 	public String getPathHash() {
@@ -97,6 +122,28 @@ public class Product implements Serializable {
 
 	public void setTitle(String title) {
 		this.title = title;
+	}
+
+	public List<ProductPhoto> getProductPhotos() {
+		return this.productPhotos;
+	}
+
+	public void setProductPhotos(List<ProductPhoto> productPhotos) {
+		this.productPhotos = productPhotos;
+	}
+
+	public ProductPhoto addProductPhoto(ProductPhoto productPhoto) {
+		getProductPhotos().add(productPhoto);
+		productPhoto.setProduct(this);
+
+		return productPhoto;
+	}
+
+	public ProductPhoto removeProductPhoto(ProductPhoto productPhoto) {
+		getProductPhotos().remove(productPhoto);
+		productPhoto.setProduct(null);
+
+		return productPhoto;
 	}
 
 	public List<ProductProperty> getProductProperties() {

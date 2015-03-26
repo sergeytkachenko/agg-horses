@@ -1,13 +1,9 @@
 package app.controllers;
 
 import app.crud.*;
-import app.model.CategoryProperty;
-import app.model.ProductProperty;
-import app.model.Proxy;
-import app.model.Site;
+import app.model.*;
 import org.jsoup.nodes.Document;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Sort;
 import org.springframework.security.authentication.encoding.Md5PasswordEncoder;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -39,7 +35,7 @@ public class Product {
     @RequestMapping("/get-products-info")
     public void getProductsInfo () throws IOException {
         List<app.model.Product> products = productsRepositories.findAll();
-        Proxy proxy = proxyRepositories.findAll(new Sort(Sort.Direction.ASC, "timeout")).iterator().next();
+        Proxy proxy = proxyRepositories.findByBest();
 
         Html html = new Html();
 
@@ -53,19 +49,30 @@ public class Product {
             String url = site.getPath() + product.getPathUrl();
             Document doc = html.getHtmlDocument(url, proxy.getIp(), proxy.getPort());
 
+            //productPropertiesRepositories.deleteAll(); // удалить все свойства продукта
+            CategoriesSite categorySite = categoriesSitesRepositories.findById(2);
+            if(null==doc) continue;
+
+            product.setTitle(doc.select(categorySite.getTitleSelector()).text()); // get title
+            product.setAddress(doc.select(categorySite.getTitleSelector()).text()); // get title
+            product.setDescription(doc.select(categorySite.getDescriptionSelector()).text()); // get description
+
+            productsRepositories.save(product);
+
             for(CategoryProperty prop : properties) {
                 String selector = prop.getValueSelector();
                 String value = doc.select(selector).text();
                 if(value==null || value.isEmpty()) {
                     // TODO правильная обработка ошибок
                     //throw new RuntimeException("Свойство не может быть пустым, url = "+url+", selector = "+selector);
+                    continue;
                 }
                 ProductProperty productProperty =
-                        productPropertiesRepositories.findByProductAndProperty(product, prop.getProperty());
-                productProperty = productProperty!=null ? productProperty : new ProductProperty();
-                productProperty.setProduct(product);
-                productProperty.setProperty(prop.getProperty());
-                productProperty.setValue(value);
+                        productPropertiesRepositories.findByProductAndProperty (product, prop.getProperty());
+                productProperty = productProperty != null ? productProperty : new ProductProperty();
+                productProperty.setProduct (product);
+                productProperty.setProperty (prop.getProperty());
+                productProperty.setValue (value);
 
                 productPropertiesRepositories.save(productProperty);
             }

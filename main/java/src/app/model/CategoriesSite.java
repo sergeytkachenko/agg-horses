@@ -21,11 +21,17 @@ public class CategoriesSite implements Serializable {
 	@Column(name="a_selector")
 	private String aSelector;
 
+	@Column(name="description_selector")
+	private String descriptionSelector;
+
 	@Column(name="page_iterator_selector")
 	private String pageIteratorSelector;
 
 	@Column(name="path_url")
 	private String pathUrl;
+
+	@Column(name="title_selector")
+	private String titleSelector;
 
 	//bi-directional many-to-one association to Category
 	@ManyToOne
@@ -54,6 +60,14 @@ public class CategoriesSite implements Serializable {
 		this.aSelector = aSelector;
 	}
 
+	public String getDescriptionSelector() {
+		return this.descriptionSelector;
+	}
+
+	public void setDescriptionSelector(String descriptionSelector) {
+		this.descriptionSelector = descriptionSelector;
+	}
+
 	public String getPageIteratorSelector() {
 		return this.pageIteratorSelector;
 	}
@@ -68,6 +82,14 @@ public class CategoriesSite implements Serializable {
 
 	public void setPathUrl(String pathUrl) {
 		this.pathUrl = pathUrl;
+	}
+
+	public String getTitleSelector() {
+		return this.titleSelector;
+	}
+
+	public void setTitleSelector(String titleSelector) {
+		this.titleSelector = titleSelector;
 	}
 
 	public Category getCategory() {
