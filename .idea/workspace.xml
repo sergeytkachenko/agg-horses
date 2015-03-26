@@ -1,39 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="aggregator-rent:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0a715663-c10b-425c-92f4-a2aac9c2868c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/City.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/City_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/Country.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/Country_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/ProductPhoto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/ProductPhoto_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/Region.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/Region_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/Salesman.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/SalesmanPhone.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/SalesmanPhone_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/model/Salesman_.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/controllers/Category.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/controllers/Category.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/controllers/Product.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/controllers/Product.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Product.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Product.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Product_.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Product_.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/controllers/Proxies.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/controllers/Proxies.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/CategoriesSite.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/CategoriesSite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/CategoriesSite_.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/CategoriesSite_.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/controllers/Category.java" afterPath="$PROJECT_DIR$/main/java/src/app/controllers/Category.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/CategoryProperty_.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/CategoryProperty_.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/Category_.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/Category_.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/controllers/Product.java" afterPath="$PROJECT_DIR$/main/java/src/app/controllers/Product.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/Product.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/Product.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/ProductProperty_.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/ProductProperty_.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/Product_.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/Product_.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/Property_.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/Property_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/resources/META-INF/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/controllers/Proxies.java" afterPath="$PROJECT_DIR$/main/java/src/app/controllers/Proxies.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/Proxy_.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/Proxy_.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/Site_.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/Site_.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/aggregator-rent.sql" afterPath="$PROJECT_DIR$/sql/aggregator-rent.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/resources/hibernate.properties" afterPath="$PROJECT_DIR$/main/java/resources/hibernate.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/resources/application.properties" afterPath="$PROJECT_DIR$/main/java/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/application.properties" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/hibernate.properties" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/hibernate.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -73,10 +50,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Product.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/java/src/app/controllers/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4853273" vertical-offset="811" max-vertical-offset="1422">
+            <state vertical-scroll-proportion="0.0" vertical-offset="739" max-vertical-offset="1422">
               <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
               <folding />
             </state>
@@ -93,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Proxies.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Proxies.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/java/src/app/controllers/Proxies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="1494">
-              <caret line="55" column="49" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.3881579" vertical-offset="708" max-vertical-offset="1620">
+              <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,11 +114,12 @@
         <option value="$PROJECT_DIR$/main/java/src/app/crud/ProductPropertiesRepositories.java" />
         <option value="$PROJECT_DIR$/main/java/src/app/model/Site_.java" />
         <option value="$PROJECT_DIR$/main/java/src/app/crud/ProxyRepositories.java" />
-        <option value="$PROJECT_DIR$/main/java/resources/hibernate.properties" />
         <option value="$PROJECT_DIR$/main/java/src/app/controllers/Category.java" />
-        <option value="$PROJECT_DIR$/main/java/src/app/controllers/Proxies.java" />
         <option value="$PROJECT_DIR$/main/java/src/app/model/ProductProperty_.java" />
         <option value="$PROJECT_DIR$/main/java/src/app/controllers/Product.java" />
+        <option value="$PROJECT_DIR$/main/java/resources/application.properties" />
+        <option value="$PROJECT_DIR$/main/java/resources/hibernate.properties" />
+        <option value="$PROJECT_DIR$/main/java/src/app/controllers/Proxies.java" />
       </list>
     </option>
   </component>
@@ -227,15 +205,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aggregator-rent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aggregator-rent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artifacts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aggregator-rent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aggregator-rent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -257,89 +263,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aggregator-rent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aggregator-rent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aggregator-rent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aggregator-rent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aggregator-rent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aggregator-rent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -357,7 +281,7 @@
     <property name="recentsLimit" value="5" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ping/ping.iml" />
@@ -658,16 +582,16 @@
       <workItem from="1427211163493" duration="1453000" />
       <workItem from="1427267155326" duration="7158000" />
       <workItem from="1427296577073" duration="868000" />
-      <workItem from="1427364881025" duration="3575000" />
+      <workItem from="1427364881025" duration="5543000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24786000" />
+    <option name="totallyTimeSpent" value="26754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1924" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -683,7 +607,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50692225" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -691,7 +615,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.485623" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43343982" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -759,7 +683,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -964,13 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/java/src/app/config/Mvc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
@@ -1115,23 +1032,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/resources/hibernate.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912">
-          <caret line="0" column="70" selection-start-line="0" selection-start-column="70" selection-end-line="0" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/src/app/controllers/Proxies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="1494">
-          <caret line="55" column="49" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/java/src/app/crud/ProductPropertiesRepositories.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23762377" vertical-offset="0" max-vertical-offset="396">
@@ -1156,11 +1056,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/resources/hibernate.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24742268" vertical-offset="0" max-vertical-offset="291">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/java/src/app/controllers/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4853273" vertical-offset="811" max-vertical-offset="1422">
+        <state vertical-scroll-proportion="0.0" vertical-offset="523" max-vertical-offset="1422">
           <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/src/app/controllers/Proxies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3881579" vertical-offset="708" max-vertical-offset="1620">
+          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1170,10 +1096,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>aggregator-rent:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

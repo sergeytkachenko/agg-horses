@@ -47,14 +47,21 @@ public class Proxies {
     public void pingProxies () throws IOException {
         // TODO обрабатывать exception, set limit for ping
         List<Proxy> proxies = proxyRepositories.findAll();
-        proxies.forEach(proxy->{
+        for(Proxy proxy : proxies) {
             float time = Integer.MAX_VALUE;
-            try {
-                time = Ping.pingTime(proxy.getIp(), proxy.getPort());
-            }
-            catch (Exception e) {
-                System.out.println(e.getMessage());
-            }
+            Thread thread = new Thread("New Thread") {
+                public void run(){
+                    try {
+                        time = Ping.pingTime(proxy.getIp(), proxy.getPort());
+                    }
+                    catch (Exception e) {
+                        System.out.println(e.getMessage());
+                    }
+                }
+            };
+
+            thread.start();
+
             proxy.setTimeout(Math.round(time));
             if(time == Integer.MAX_VALUE) {
                 proxyRepositories.delete(proxy);
@@ -64,7 +71,7 @@ public class Proxies {
             proxy.setPingedCount(pingedCount+1);
 
             proxyRepositories.save(proxy);
-        });
+        }
 
     }
 
