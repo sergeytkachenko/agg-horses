@@ -1,6 +1,7 @@
 package app.crud;
 
 import app.model.CategoriesSite;
+import app.model.Site;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -10,6 +11,7 @@ public interface CategoriesSitesRepositories extends PagingAndSortingRepository<
     public List<CategoriesSite> findAll();
 
     public CategoriesSite findById(Integer id);
+    public List<CategoriesSite> findBySite(Site site);
 
     @Transactional
     public void deleteAll();
