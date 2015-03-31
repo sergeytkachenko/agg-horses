@@ -76,4 +76,8 @@ public class Proxies {
         return proxies;
     }
 
+    @RequestMapping("/best-proxy")
+    public Proxy bestProxy () {
+        return proxyRepositories.findByBest();
+    }
 }

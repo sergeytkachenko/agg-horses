@@ -13,4 +13,9 @@ public class Example {
         float time = Ping.pingTime("192.168.109.176", "80");
         System.out.println(time);
     }
+
+    @RequestMapping("/test")
+    public void test () throws IOException {
+
+    }
 }
