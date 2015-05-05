@@ -11,7 +11,6 @@ import org.springframework.security.authentication.encoding.Md5PasswordEncoder;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import parser.Html;
-import parser.ImagePHash;
 import parser.Images;
 import parser.Phone;
 

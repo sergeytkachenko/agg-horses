@@ -11,7 +11,6 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.security.authentication.encoding.Md5PasswordEncoder;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import parser.ImagePHash;
 import parser.Images;
 
 import java.io.*;
@@ -52,8 +51,6 @@ public class Photos {
     CommentsRepositories commentsRepositories;
     @Autowired
     Md5PasswordEncoder md5PasswordEncoder;
-
-    ImagePHash phash = new ImagePHash();
 
     @RequestMapping("/get-photos")
     private void getPhotos () {
@@ -102,10 +99,10 @@ public class Photos {
                 photo.setImgSrc(filename);
                 photo.setIsDownloaded(true);
                 InputStream is = new FileInputStream(new File(photosDirectory + "/" + filename).getPath());
-                String hash = phash.getHash(is);
-                photo.setPhash(hash);
-                productPhotosRepositories.save(photo);
-                System.out.println(photo);
+//                String hash = phash.getHash(is);
+//                photo.setPhash(hash);
+//                productPhotosRepositories.save(photo);
+//                System.out.println(photo);
             } catch (IOException e) {
                 e.printStackTrace();
             } catch (Exception e) {
@@ -120,9 +117,9 @@ public class Photos {
             InputStream is = null;
             try {
                 is = new FileInputStream(new File(photosDirectory + "/" + photo.getImgSrc()).getPath());
-                String hash = phash.getHash(is);
-                photo.setPhash(hash);
-                productPhotosRepositories.save(photo);
+//                String hash = phash.getHash(is);
+//                photo.setPhash(hash);
+//                productPhotosRepositories.save(photo);
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             } catch (Exception e) {
@@ -144,15 +141,15 @@ public class Photos {
                 if (ph2 == null) {
                     return;
                 }
-                int distance = phash.distance(ph1, ph2);
-                if (distance < 10) {
-                    PhashPhoto phashPhoto = new PhashPhoto();
-                    phashPhoto.setPhotoIdX(p1.getId());
-                    phashPhoto.setPhotoIdY(p2.getId());
-                    phashPhoto.setDistance(distance);
-
-                    phashPhotoRepositories.save(phashPhoto);
-                }
+//                int distance = phash.distance(ph1, ph2);
+//                if (distance < 10) {
+//                    PhashPhoto phashPhoto = new PhashPhoto();
+//                    phashPhoto.setPhotoIdX(p1.getId());
+//                    phashPhoto.setPhotoIdY(p2.getId());
+//                    phashPhoto.setDistance(distance);
+//
+//                    phashPhotoRepositories.save(phashPhoto);
+//                }
             });
 
             productPhotosRepositories.save(p1);
