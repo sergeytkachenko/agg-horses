@@ -8,8 +8,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @Configuration
 @EnableJpaRepositories("app.crud")
 @EnableWebMvc
-@EnableScheduling
 public class AppConfig {
-
 
 }

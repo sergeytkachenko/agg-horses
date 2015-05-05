@@ -79,7 +79,7 @@ public class Category {
                         if (url.startsWith("https")) {
                             doc = html.getHtmlDocument(url, proxy.getIp(), proxy.getPort());
                         } else {
-                            doc = html.getHtmlDocument(url, proxy.getIp(), proxy.getPort());
+                            doc = html.getHtmlDocument(urlInPage, proxy.getIp(), proxy.getPort());
                         }
                     } catch (IOException e) {
 
