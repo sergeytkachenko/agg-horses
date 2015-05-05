@@ -2,180 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dda5533c-8369-4fd7-b900-6458037f8820" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/src/app/service/Proxy.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/description.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/ping.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/project-template.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/java/src/app/model/CategoriesSite_.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/java/src/app/model/CategoryProperty_.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/java/src/app/model/Category_.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/java/src/app/model/City.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/java/src/app/model/City_.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/java/src/app/model/Country.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/java/src/app/model/Country_.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/java/src/app/model/ProductPhoto_.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/java/src/app/model/ProductProperty_.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/java/src/app/model/Product_.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/java/src/app/model/Property_.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/java/src/app/model/Proxy_.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/java/src/app/model/Region.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/java/src/app/model/Region_.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/java/src/app/model/Salesman.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/java/src/app/model/SalesmanPhone.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/java/src/app/model/SalesmanPhone_.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/java/src/app/model/Salesman_.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/java/src/app/model/Site_.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/aggregator-rent.iml" afterPath="$PROJECT_DIR$/aggregator.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/crud/CategoriesRepositories.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/crud/CategoriesRepositories.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/CategoriesSite.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/CategoriesSite.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/CategoriesSite_.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/CategoriesSite_.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/crud/CategoriesSitesRepositories.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/crud/CategoriesSitesRepositories.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/controllers/Category.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/controllers/Category.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Category.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Category.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/crud/CategoryPropertiesRepositories.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/crud/CategoryPropertiesRepositories.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/CategoryProperty.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/CategoryProperty.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/CategoryProperty_.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/CategoryProperty_.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Category_.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Category_.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/City.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/City.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/City_.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/City_.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Country.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Country.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Country_.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Country_.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/controllers/Product.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/controllers/Product.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Product.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Product.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/ProductPhoto.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/ProductPhoto.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/ProductPhoto_.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/ProductPhoto_.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/crud/ProductPropertiesRepositories.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/crud/ProductPropertiesRepositories.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/ProductProperty.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/ProductProperty.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/ProductProperty_.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/ProductProperty_.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Product_.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Product_.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/crud/ProductsRepositories.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/crud/ProductsRepositories.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Property.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Property.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Property_.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Property_.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/controllers/Proxies.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/controllers/Proxies.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Proxy.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Proxy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/crud/ProxyRepositories.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/crud/ProxyRepositories.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Proxy_.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Proxy_.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Region.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Region.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Region_.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Region_.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Salesman.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Salesman.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/SalesmanPhone.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/SalesmanPhone.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/SalesmanPhone_.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/SalesmanPhone_.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Salesman_.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Salesman_.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Site.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Site.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Site_.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/model/Site_.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/app/crud/SitesRepositories.class" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/app/crud/SitesRepositories.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/aggregator-rent.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/aggregator-rent.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/antlr-jar-2.7.7.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/antlr-jar-2.7.7.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/aopalliance-jar-1.0.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/aopalliance-jar-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/aspectjrt-jar-1.8.4.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/aspectjrt-jar-1.8.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/aspectjweaver-jar-1.8.4.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/aspectjweaver-jar-1.8.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/btf-jar-1.2.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/btf-jar-1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/classmate-bundle-1.0.0.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/classmate-bundle-1.0.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/commons-codec-jar-1.6.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/commons-codec-jar-1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/commons-logging-jar-1.2.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/commons-logging-jar-1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/dom4j-jar-1.6.1.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/dom4j-jar-1.6.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/evo-inflector-jar-1.2.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/evo-inflector-jar-1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/guava-bundle-16.0.1.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/guava-bundle-16.0.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/hibernate-commons-annotations-jar-4.0.5.Final.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/hibernate-commons-annotations-jar-4.0.5.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/hibernate-core-jar-4.3.8.Final.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/hibernate-core-jar-4.3.8.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/hibernate-entitymanager-jar-4.3.8.Final.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/hibernate-entitymanager-jar-4.3.8.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/hibernate-jpa-2.1-api-jar-1.0.0.Final.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/hibernate-jpa-2.1-api-jar-1.0.0.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/hibernate-validator-jar-5.1.3.Final.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/hibernate-validator-jar-5.1.3.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/httpclient-jar-4.3.6.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/httpclient-jar-4.3.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/httpcore-jar-4.3.3.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/httpcore-jar-4.3.3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jackson-annotations-bundle-2.4.4.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jackson-annotations-bundle-2.4.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jackson-core-bundle-2.4.4.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jackson-core-bundle-2.4.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jackson-coreutils-jar-1.6.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jackson-coreutils-jar-1.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jackson-databind-bundle-2.4.4.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jackson-databind-bundle-2.4.4.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jandex-jar-1.1.0.Final.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jandex-jar-1.1.0.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/javassist-bundle-3.18.1-GA.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/javassist-bundle-3.18.1-GA.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/javax.transaction-api-jar-1.2.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/javax.transaction-api-jar-1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jboss-logging-annotations-jar-1.2.0.Beta1.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jboss-logging-annotations-jar-1.2.0.Beta1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jboss-logging-jar-3.1.3.GA.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jboss-logging-jar-3.1.3.GA.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jboss-transaction-api_1.2_spec-jar-1.0.0.Final.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jboss-transaction-api_1.2_spec-jar-1.0.0.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jcl-over-slf4j-jar-1.7.8.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jcl-over-slf4j-jar-1.7.8.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/json-patch-jar-1.7.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/json-patch-jar-1.7.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jsoup-jar-1.7.2.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jsoup-jar-1.7.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jsr305-jar-2.0.1.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jsr305-jar-2.0.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jul-to-slf4j-jar-1.7.8.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/jul-to-slf4j-jar-1.7.8.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/log4j-over-slf4j-jar-1.7.8.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/log4j-over-slf4j-jar-1.7.8.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/logback-classic-jar-1.1.2.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/logback-classic-jar-1.1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/logback-core-jar-1.1.2.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/logback-core-jar-1.1.2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/msg-simple-jar-1.1.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/msg-simple-jar-1.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/mysql-connector-java-jar-5.1.34.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/mysql-connector-java-jar-5.1.34.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/objenesis-jar-2.1.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/objenesis-jar-2.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/ognl-jar-3.0.8.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/ognl-jar-3.0.8.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/ping.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/ping.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/slf4j-api-jar-1.7.8.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/slf4j-api-jar-1.7.8.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/snakeyaml-bundle-1.14.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/snakeyaml-bundle-1.14.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-aop-jar-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-aop-jar-4.1.4.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-aspects-jar-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-aspects-jar-4.1.4.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-beans-jar-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-beans-jar-4.1.4.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-boot-autoconfigure-jar-1.2.1.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-boot-autoconfigure-jar-1.2.1.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-boot-jar-1.2.1.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-boot-jar-1.2.1.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-boot-starter-aop-jar-1.2.1.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-boot-starter-aop-jar-1.2.1.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-boot-starter-data-jpa-jar-1.2.1.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-boot-starter-data-jpa-jar-1.2.1.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-boot-starter-data-rest-jar-1.2.1.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-boot-starter-data-rest-jar-1.2.1.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-boot-starter-jar-1.2.1.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-boot-starter-jar-1.2.1.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-boot-starter-jdbc-jar-1.2.1.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-boot-starter-jdbc-jar-1.2.1.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-boot-starter-logging-jar-1.2.1.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-boot-starter-logging-jar-1.2.1.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-boot-starter-thymeleaf-jar-1.2.1.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-boot-starter-thymeleaf-jar-1.2.1.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-boot-starter-tomcat-jar-1.2.1.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-boot-starter-tomcat-jar-1.2.1.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-boot-starter-web-jar-1.2.1.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-boot-starter-web-jar-1.2.1.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-context-jar-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-context-jar-4.1.4.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-core-jar-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-core-jar-4.1.4.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-data-commons-jar-1.9.1.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-data-commons-jar-1.9.1.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-data-jpa-jar-1.7.1.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-data-jpa-jar-1.7.1.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-data-rest-core-jar-2.2.1.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-data-rest-core-jar-2.2.1.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-data-rest-webmvc-jar-2.2.1.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-data-rest-webmvc-jar-2.2.1.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-expression-jar-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-expression-jar-4.1.4.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-hateoas-jar-0.16.0.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-hateoas-jar-0.16.0.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-jdbc-jar-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-jdbc-jar-4.1.4.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-orm-jar-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-orm-jar-4.1.4.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-plugin-core-jar-1.1.0.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-plugin-core-jar-1.1.0.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-security-config-jar-3.2.5.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-security-config-jar-3.2.5.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-security-core-jar-3.2.5.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-security-core-jar-3.2.5.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-security-web-jar-3.2.5.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-security-web-jar-3.2.5.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-tx-jar-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-tx-jar-4.1.4.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-web-jar-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-web-jar-4.1.4.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-webmvc-jar-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/spring-webmvc-jar-4.1.4.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/thymeleaf-jar-2.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/thymeleaf-jar-2.1.4.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/thymeleaf-layout-dialect-jar-1.2.7.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/thymeleaf-layout-dialect-jar-1.2.7.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/thymeleaf-spring4-jar-2.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/thymeleaf-spring4-jar-2.1.4.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/tomcat-embed-core-jar-8.0.15.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/tomcat-embed-core-jar-8.0.15.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/tomcat-embed-el-jar-8.0.15.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/tomcat-embed-el-jar-8.0.15.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/tomcat-embed-logging-juli-jar-8.0.15.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/tomcat-embed-logging-juli-jar-8.0.15.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/tomcat-embed-websocket-jar-8.0.15.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/tomcat-embed-websocket-jar-8.0.15.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/tomcat-jdbc-jar-8.0.15.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/tomcat-jdbc-jar-8.0.15.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/tomcat-juli-jar-8.0.15.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/tomcat-juli-jar-8.0.15.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/unbescape-jar-1.1.0.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/unbescape-jar-1.1.0.RELEASE.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/validation-api-jar-1.1.0.Final.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/validation-api-jar-1.1.0.Final.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/xml-apis-jar-1.0.b2.jar" afterPath="$PROJECT_DIR$/out/artifacts/aggregator_rent_jar/xml-apis-jar-1.0.b2.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/CategoriesSite.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/CategoriesSite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/Category.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/Category.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/CategoryProperty.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/CategoryProperty.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/controllers/Example.java" afterPath="$PROJECT_DIR$/main/java/src/app/controllers/Example.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/resources/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/main/java/resources/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/Product.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/Product.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/ProductPhoto.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/ProductPhoto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/ProductProperty.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/ProductProperty.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/Property.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/Property.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/controllers/Proxies.java" afterPath="$PROJECT_DIR$/main/java/src/app/controllers/Proxies.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/Proxy.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/Proxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/src/app/model/Site.java" afterPath="$PROJECT_DIR$/main/java/src/app/model/Site.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/aggregator-rent.sql" afterPath="$PROJECT_DIR$/sql/aggregator-rent.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/aggregator-rent/hibernate.properties" afterPath="$PROJECT_DIR$/out/production/aggregator-rent/hibernate.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/resources/hibernate.properties" afterPath="$PROJECT_DIR$/main/java/resources/hibernate.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ping.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ping.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="aggregator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -201,24 +33,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Proxy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/java/src/app/service/Proxy.java">
+      <file leaf-file-name="ivy.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ivy.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="385" max-vertical-offset="1330">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Example.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/java/src/app/controllers/Example.java">
+      <file leaf-file-name="Category.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/java/src/app/controllers/Category.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.03956044" vertical-offset="0" max-vertical-offset="910">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
+              <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hibernate.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/java/resources/hibernate.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="549">
+              <caret line="0" column="65" selection-start-line="0" selection-start-column="65" selection-end-line="0" selection-end-column="65" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -234,6 +74,8 @@
         <option value="$PROJECT_DIR$/main/java/src/app/controllers/Proxies.java" />
         <option value="$PROJECT_DIR$/main/java/src/app/service/Proxy.java" />
         <option value="$PROJECT_DIR$/main/java/src/app/controllers/Example.java" />
+        <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/main/java/resources/hibernate.properties" />
       </list>
     </option>
   </component>
@@ -241,8 +83,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="1054" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -275,27 +118,41 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="aggregator" />
+              <option name="myItemId" value="agg-horses" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="aggregator" />
+              <option name="myItemId" value="agg-horses" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="aggregator" />
+              <option name="myItemId" value="agg-horses" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="aggregator" />
+              <option name="myItemId" value="agg-horses" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="aggregator" />
+              <option name="myItemId" value="agg-horses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agg-horses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agg-horses" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -310,44 +167,14 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="aggregator" />
+              <option name="myItemId" value="agg-horses" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="aggregator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aggregator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aggregator" />
+              <option name="myItemId" value="agg-horses" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -366,18 +193,14 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="aggregator" />
+              <option name="myItemId" value="agg-horses" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="aggregator" />
+              <option name="myItemId" value="agg-horses" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -403,11 +226,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="aggregator" />
+              <option name="myItemId" value="agg-horses" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="aggregator" />
+              <option name="myItemId" value="agg-horses" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -416,6 +239,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -432,9 +259,9 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lib/ping.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/default" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
@@ -442,55 +269,6 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -507,24 +285,28 @@
       <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
       <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -555,6 +337,27 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -562,41 +365,6 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
@@ -634,6 +402,32 @@
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -650,20 +444,18 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
@@ -685,6 +477,41 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <configuration default="false" name="Main" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="app.Main" />
@@ -696,9 +523,15 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="aggregator" />
+      <module name="agg-horses" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -707,6 +540,9 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="dda5533c-8369-4fd7-b900-6458037f8820" name="Default" comment="" />
@@ -716,44 +552,46 @@
       <workItem from="1427702099675" duration="274000" />
       <workItem from="1427702396076" duration="1324000" />
       <workItem from="1427706831872" duration="3430000" />
+      <workItem from="1430855368542" duration="609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5028000" />
+    <option name="totallyTimeSpent" value="5637000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1054" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4461046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39958376" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IvyIDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882413" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24920128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4461046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -783,6 +621,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main/java/src/app/service/Proxy.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="209">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/src/app/controllers/Example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="513">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/src/app/service/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -794,8 +648,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1278">
           <caret line="19" column="20" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="20" />
           <folding>
-            <element signature="e#2585#2586#0" expanded="true" />
-            <element signature="e#2638#2639#0" expanded="true" />
+            <element signature="e#2585#2586#0" expanded="false" />
+            <element signature="e#2638#2639#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -804,7 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0989011" vertical-offset="0" max-vertical-offset="1422">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07912088" vertical-offset="0" max-vertical-offset="910">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,7 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1206">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,27 +680,57 @@
         <state vertical-scroll-proportion="-0.4043956" vertical-offset="440" max-vertical-offset="1350">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="15" />
           <folding>
-            <element signature="e#2585#2586#0" expanded="true" />
-            <element signature="e#2638#2639#0" expanded="true" />
+            <element signature="e#2585#2586#0" expanded="false" />
+            <element signature="e#2638#2639#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/src/app/service/Proxy.java">
+    <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4935065" vertical-offset="0" max-vertical-offset="616">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/java/src/app/controllers/Example.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03956044" vertical-offset="0" max-vertical-offset="910">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.09253247" vertical-offset="0" max-vertical-offset="616">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/src/app/service/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.030844156" vertical-offset="0" max-vertical-offset="616">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ivy.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="385" max-vertical-offset="1330">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/src/app/controllers/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
+          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/resources/hibernate.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="549">
+          <caret line="0" column="65" selection-start-line="0" selection-start-column="65" selection-end-line="0" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -882,7 +763,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>activation-1.1</last-edited>
+          <last-edited>mysql-connector-java-5.1.28-bin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -894,7 +775,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -906,12 +787,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>aggregator</last-edited>
+          <last-edited>agg-horses</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -919,7 +799,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>ping</last-edited>
+          <last-edited>default</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

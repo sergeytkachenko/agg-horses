@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Class-Path: btf-jar-1.2.jar ognl-jar-3.0.8.jar antlr-jar-2.7.7.jar dom
+ 4j-jar-1.6.1.jar jsoup-jar-1.7.2.jar jsr305-jar-2.0.1.jar objenesis-j
+ ar-2.1.jar httpcore-jar-4.3.3.jar json-patch-jar-1.7.jar msg-simple-j
+ ar-1.1.jar aopalliance-jar-1.0.jar aspectjrt-jar-1.8.4.jar guava-bund
+ le-16.0.1.jar slf4j-api-jar-1.7.8.jar xml-apis-jar-1.0.b2.jar httpcli
+ ent-jar-4.3.6.jar commons-codec-jar-1.6.jar evo-inflector-jar-1.2.jar
+  snakeyaml-bundle-1.14.jar classmate-bundle-1.0.0.jar jandex-jar-1.1.
+ 0.Final.jar jul-to-slf4j-jar-1.7.8.jar logback-core-jar-1.1.2.jar tom
+ cat-jdbc-jar-8.0.15.jar tomcat-juli-jar-8.0.15.jar aspectjweaver-jar-
+ 1.8.4.jar commons-logging-jar-1.2.jar jcl-over-slf4j-jar-1.7.8.jar ja
+ ckson-core-bundle-2.4.4.jar jackson-coreutils-jar-1.6.jar logback-cla
+ ssic-jar-1.1.2.jar javassist-bundle-3.18.1-GA.jar jboss-logging-jar-3
+ .1.3.GA.jar log4j-over-slf4j-jar-1.7.8.jar tomcat-embed-el-jar-8.0.15
+ .jar spring-tx-jar-4.1.4.RELEASE.jar thymeleaf-jar-2.1.4.RELEASE.jar 
+ unbescape-jar-1.1.0.RELEASE.jar spring-aop-jar-4.1.4.RELEASE.jar spri
+ ng-orm-jar-4.1.4.RELEASE.jar spring-web-jar-4.1.4.RELEASE.jar tomcat-
+ embed-core-jar-8.0.15.jar jackson-databind-bundle-2.4.4.jar javax.tra
+ nsaction-api-jar-1.2.jar spring-boot-jar-1.2.1.RELEASE.jar spring-cor
+ e-jar-4.1.4.RELEASE.jar spring-jdbc-jar-4.1.4.RELEASE.jar hibernate-c
+ ore-jar-4.3.8.Final.jar spring-beans-jar-4.1.4.RELEASE.jar validation
+ -api-jar-1.1.0.Final.jar mysql-connector-java-jar-5.1.34.jar spring-w
+ ebmvc-jar-4.1.4.RELEASE.jar jackson-annotations-bundle-2.4.4.jar spri
+ ng-aspects-jar-4.1.4.RELEASE.jar spring-context-jar-4.1.4.RELEASE.jar
+  spring-data-jpa-jar-1.7.1.RELEASE.jar spring-hateoas-jar-0.16.0.RELE
+ ASE.jar tomcat-embed-websocket-jar-8.0.15.jar thymeleaf-layout-dialec
+ t-jar-1.2.7.jar hibernate-validator-jar-5.1.3.Final.jar spring-expres
+ sion-jar-4.1.4.RELEASE.jar thymeleaf-spring4-jar-2.1.4.RELEASE.jar sp
+ ring-plugin-core-jar-1.1.0.RELEASE.jar tomcat-embed-logging-juli-jar-
+ 8.0.15.jar hibernate-jpa-2.1-api-jar-1.0.0.Final.jar spring-boot-star
+ ter-jar-1.2.1.RELEASE.jar spring-data-commons-jar-1.9.1.RELEASE.jar s
+ pring-security-web-jar-3.2.5.RELEASE.jar spring-security-core-jar-3.2
+ .5.RELEASE.jar hibernate-entitymanager-jar-4.3.8.Final.jar spring-dat
+ a-rest-core-jar-2.2.1.RELEASE.jar spring-security-config-jar-3.2.5.RE
+ LEASE.jar jboss-logging-annotations-jar-1.2.0.Beta1.jar spring-boot-s
+ tarter-aop-jar-1.2.1.RELEASE.jar spring-boot-starter-web-jar-1.2.1.RE
+ LEASE.jar spring-data-rest-webmvc-jar-2.2.1.RELEASE.jar spring-boot-s
+ tarter-jdbc-jar-1.2.1.RELEASE.jar spring-boot-autoconfigure-jar-1.2.1
+ .RELEASE.jar spring-boot-starter-tomcat-jar-1.2.1.RELEASE.jar hiberna
+ te-commons-annotations-jar-4.0.5.Final.jar spring-boot-starter-loggin
+ g-jar-1.2.1.RELEASE.jar jboss-transaction-api_1.2_spec-jar-1.0.0.Fina
+ l.jar spring-boot-starter-data-jpa-jar-1.2.1.RELEASE.jar spring-boot-
+ starter-data-rest-jar-1.2.1.RELEASE.jar spring-boot-starter-thymeleaf
+ -jar-1.2.1.RELEASE.jar ping.jar
+Main-Class: app.Main
+

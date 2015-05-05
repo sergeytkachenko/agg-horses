@@ -2,6 +2,7 @@
   <library name="ping">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../lib/ping.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../lib/ping.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
