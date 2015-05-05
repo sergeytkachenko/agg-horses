@@ -32,6 +32,14 @@
     <entry_points version="2.0" />
   </component>
   <component name="IdProvider" IDEtalkID="1242DD428FC1102E7AB9AFED05BDEDB2" />
+  <component name="IvyIDEA.ProjectSettings">
+    <option name="artifactTypeSettings">
+      <ArtifactTypeSettings />
+    </option>
+    <option name="propertiesSettings">
+      <PropertiesSettings />
+    </option>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />

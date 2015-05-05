@@ -31,16 +31,21 @@ public class Proxies {
             System.out.println("html is null");
             return;
         }
-        proxyRepositories.deleteAll();
+
         Elements trList = doc.select("table#proxylisttable tr");
+        if(trList.size() == 0) {
+            System.out.println("Proxies list in html document is null");
+        }
         for (Element tr : trList) {
             String ip = tr.select("td:eq(0)").text();
             String port = tr.select("td:eq(1)").text();
 
             if(ip==null || ip.isEmpty()) {continue;}
-            if(proxyRepositories.findByIp(ip)!=null){continue;}
-
             Proxy proxy = new Proxy();
+            if(proxyRepositories.findByIp(ip)!=null){
+                proxy = proxyRepositories.findByIp(ip);
+            }
+
             proxy.setIp(ip);
             proxy.setPort(port);
 
@@ -56,7 +61,7 @@ public class Proxies {
         List<Proxy> proxies = proxyRepositories.findAll();
         List<Proxy> proxyList = new ArrayList<>();
         proxies.parallelStream().forEach(proxy -> {
-
+            System.out.println(proxy.getIp());
             float time = Integer.MAX_VALUE;
             time = Ping.pingTime(proxy.getIp(), proxy.getPort());
 

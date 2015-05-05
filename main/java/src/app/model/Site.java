@@ -19,17 +19,34 @@ public class Site implements Serializable {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int id;
 
+	@Column(name="images_iterator_selector")
+	private String imagesIteratorSelector;
+
+	@Column(name="limit_pages")
+	private int limitPages;
+
 	private String page;
 
 	private String path;
+
+	@Column(name="services_iterator_selector")
+	private String servicesIteratorSelector;
 
 	//bi-directional many-to-one association to CategoriesSite
 	@OneToMany(mappedBy="site")
 	private List<CategoriesSite> categoriesSites;
 
+	//bi-directional many-to-one association to CategoryProperty
+	@OneToMany(mappedBy="site")
+	private List<CategoryProperty> categoryProperties;
+
 	//bi-directional many-to-one association to Product
 	@OneToMany(mappedBy="site")
 	private List<Product> products;
+
+	//bi-directional many-to-one association to Service
+	@OneToMany(mappedBy="site")
+	private List<Service> services;
 
 	public Site() {
 	}
@@ -40,6 +57,22 @@ public class Site implements Serializable {
 
 	public void setId(int id) {
 		this.id = id;
+	}
+
+	public String getImagesIteratorSelector() {
+		return this.imagesIteratorSelector;
+	}
+
+	public void setImagesIteratorSelector(String imagesIteratorSelector) {
+		this.imagesIteratorSelector = imagesIteratorSelector;
+	}
+
+	public int getLimitPages() {
+		return this.limitPages;
+	}
+
+	public void setLimitPages(int limitPages) {
+		this.limitPages = limitPages;
 	}
 
 	public String getPage() {
@@ -56,6 +89,14 @@ public class Site implements Serializable {
 
 	public void setPath(String path) {
 		this.path = path;
+	}
+
+	public String getServicesIteratorSelector() {
+		return this.servicesIteratorSelector;
+	}
+
+	public void setServicesIteratorSelector(String servicesIteratorSelector) {
+		this.servicesIteratorSelector = servicesIteratorSelector;
 	}
 
 	public List<CategoriesSite> getCategoriesSites() {
@@ -80,6 +121,28 @@ public class Site implements Serializable {
 		return categoriesSite;
 	}
 
+	public List<CategoryProperty> getCategoryProperties() {
+		return this.categoryProperties;
+	}
+
+	public void setCategoryProperties(List<CategoryProperty> categoryProperties) {
+		this.categoryProperties = categoryProperties;
+	}
+
+	public CategoryProperty addCategoryProperty(CategoryProperty categoryProperty) {
+		getCategoryProperties().add(categoryProperty);
+		categoryProperty.setSite(this);
+
+		return categoryProperty;
+	}
+
+	public CategoryProperty removeCategoryProperty(CategoryProperty categoryProperty) {
+		getCategoryProperties().remove(categoryProperty);
+		categoryProperty.setSite(null);
+
+		return categoryProperty;
+	}
+
 	public List<Product> getProducts() {
 		return this.products;
 	}
@@ -100,6 +163,28 @@ public class Site implements Serializable {
 		product.setSite(null);
 
 		return product;
+	}
+
+	public List<Service> getServices() {
+		return this.services;
+	}
+
+	public void setServices(List<Service> services) {
+		this.services = services;
+	}
+
+	public Service addService(Service service) {
+		getServices().add(service);
+		service.setSite(this);
+
+		return service;
+	}
+
+	public Service removeService(Service service) {
+		getServices().remove(service);
+		service.setSite(null);
+
+		return service;
 	}
 
 }

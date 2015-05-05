@@ -20,6 +20,9 @@ public class Proxy implements Serializable {
 
 	private String ip;
 
+	@Column(name="is_ssl")
+	private boolean isSsl;
+
 	@Column(name="is_worked")
 	private boolean isWorked;
 
@@ -47,6 +50,14 @@ public class Proxy implements Serializable {
 
 	public void setIp(String ip) {
 		this.ip = ip;
+	}
+
+	public boolean getIsSsl() {
+		return this.isSsl;
+	}
+
+	public void setIsSsl(boolean isSsl) {
+		this.isSsl = isSsl;
 	}
 
 	public boolean getIsWorked() {
