@@ -19,6 +19,12 @@ public class Property implements Serializable {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int id;
 
+	@Column(name="is_integer")
+	private boolean isInteger;
+
+	@Column(name="is_phone")
+	private boolean isPhone;
+
 	private String title;
 
 	//bi-directional many-to-one association to CategoryProperty
@@ -38,6 +44,22 @@ public class Property implements Serializable {
 
 	public void setId(int id) {
 		this.id = id;
+	}
+
+	public boolean getIsInteger() {
+		return this.isInteger;
+	}
+
+	public void setIsInteger(boolean isInteger) {
+		this.isInteger = isInteger;
+	}
+
+	public boolean getIsPhone() {
+		return this.isPhone;
+	}
+
+	public void setIsPhone(boolean isPhone) {
+		this.isPhone = isPhone;
 	}
 
 	public String getTitle() {

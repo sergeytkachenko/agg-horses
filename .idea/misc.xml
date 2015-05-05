@@ -30,7 +30,11 @@
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
+<<<<<<< HEAD
   <component name="IdProvider" IDEtalkID="BB5A2420DE6B9749C880FC307A5AB3D2" />
+=======
+  <component name="IdProvider" IDEtalkID="1242DD428FC1102E7AB9AFED05BDEDB2" />
+>>>>>>> 03524b37930fd18f1c8f367ac9b12ba7de1742cb
   <component name="IvyIDEA.ProjectSettings">
     <option name="artifactTypeSettings">
       <ArtifactTypeSettings />
@@ -39,6 +43,7 @@
       <PropertiesSettings />
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -80,6 +85,8 @@
       </profile-state>
     </entry>
   </component>
+=======
+>>>>>>> 03524b37930fd18f1c8f367ac9b12ba7de1742cb
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />

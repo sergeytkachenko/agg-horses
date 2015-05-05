@@ -20,9 +20,6 @@ public class Product implements Serializable {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int id;
 
-	@Lob
-	private String address;
-
 	@Temporal(TemporalType.TIMESTAMP)
 	@Column(name="date_create")
 	private Date dateCreate;
@@ -31,7 +28,7 @@ public class Product implements Serializable {
 	@Column(name="date_update")
 	private Date dateUpdate;
 
-	private String description;
+	private String html;
 
 	@Column(name="path_hash")
 	private String pathHash;
@@ -41,6 +38,10 @@ public class Product implements Serializable {
 
 	private String title;
 
+	//bi-directional many-to-one association to Comment
+	@OneToMany(mappedBy="product")
+	private List<Comment> comments;
+
 	//bi-directional many-to-one association to ProductPhoto
 	@OneToMany(mappedBy="product")
 	private List<ProductPhoto> productPhotos;
@@ -49,6 +50,10 @@ public class Product implements Serializable {
 	@OneToMany(mappedBy="product")
 	private List<ProductProperty> productProperties;
 
+	//bi-directional many-to-one association to ProductService
+	@OneToMany(mappedBy="product")
+	private List<ProductService> productServices;
+
 	//bi-directional many-to-one association to Category
 	@ManyToOne
 	private Category category;
@@ -56,6 +61,10 @@ public class Product implements Serializable {
 	//bi-directional many-to-one association to Site
 	@ManyToOne
 	private Site site;
+
+	//bi-directional many-to-many association to Service
+	@ManyToMany(mappedBy="products")
+	private List<Service> services;
 
 	public Product() {
 	}
@@ -66,14 +75,6 @@ public class Product implements Serializable {
 
 	public void setId(int id) {
 		this.id = id;
-	}
-
-	public String getAddress() {
-		return this.address;
-	}
-
-	public void setAddress(String address) {
-		this.address = address;
 	}
 
 	public Date getDateCreate() {
@@ -92,12 +93,12 @@ public class Product implements Serializable {
 		this.dateUpdate = dateUpdate;
 	}
 
-	public String getDescription() {
-		return this.description;
+	public String getHtml() {
+		return this.html;
 	}
 
-	public void setDescription(String description) {
-		this.description = description;
+	public void setHtml(String html) {
+		this.html = html;
 	}
 
 	public String getPathHash() {
@@ -122,6 +123,28 @@ public class Product implements Serializable {
 
 	public void setTitle(String title) {
 		this.title = title;
+	}
+
+	public List<Comment> getComments() {
+		return this.comments;
+	}
+
+	public void setComments(List<Comment> comments) {
+		this.comments = comments;
+	}
+
+	public Comment addComment(Comment comment) {
+		getComments().add(comment);
+		comment.setProduct(this);
+
+		return comment;
+	}
+
+	public Comment removeComment(Comment comment) {
+		getComments().remove(comment);
+		comment.setProduct(null);
+
+		return comment;
 	}
 
 	public List<ProductPhoto> getProductPhotos() {
@@ -168,6 +191,28 @@ public class Product implements Serializable {
 		return productProperty;
 	}
 
+	public List<ProductService> getProductServices() {
+		return this.productServices;
+	}
+
+	public void setProductServices(List<ProductService> productServices) {
+		this.productServices = productServices;
+	}
+
+	public ProductService addProductService(ProductService productService) {
+		getProductServices().add(productService);
+		productService.setProduct(this);
+
+		return productService;
+	}
+
+	public ProductService removeProductService(ProductService productService) {
+		getProductServices().remove(productService);
+		productService.setProduct(null);
+
+		return productService;
+	}
+
 	public Category getCategory() {
 		return this.category;
 	}
@@ -182,6 +227,14 @@ public class Product implements Serializable {
 
 	public void setSite(Site site) {
 		this.site = site;
+	}
+
+	public List<Service> getServices() {
+		return this.services;
+	}
+
+	public void setServices(List<Service> services) {
+		this.services = services;
 	}
 
 }

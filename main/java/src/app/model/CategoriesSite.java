@@ -21,6 +21,18 @@ public class CategoriesSite implements Serializable {
 	@Column(name="a_selector")
 	private String aSelector;
 
+	@Column(name="comment_author_selector")
+	private String commentAuthorSelector;
+
+	@Column(name="comment_date_selector")
+	private String commentDateSelector;
+
+	@Column(name="comment_iterator_selector")
+	private String commentIteratorSelector;
+
+	@Column(name="comment_text_selector")
+	private String commentTextSelector;
+
 	@Column(name="description_selector")
 	private String descriptionSelector;
 
@@ -58,6 +70,38 @@ public class CategoriesSite implements Serializable {
 
 	public void setASelector(String aSelector) {
 		this.aSelector = aSelector;
+	}
+
+	public String getCommentAuthorSelector() {
+		return this.commentAuthorSelector;
+	}
+
+	public void setCommentAuthorSelector(String commentAuthorSelector) {
+		this.commentAuthorSelector = commentAuthorSelector;
+	}
+
+	public String getCommentDateSelector() {
+		return this.commentDateSelector;
+	}
+
+	public void setCommentDateSelector(String commentDateSelector) {
+		this.commentDateSelector = commentDateSelector;
+	}
+
+	public String getCommentIteratorSelector() {
+		return this.commentIteratorSelector;
+	}
+
+	public void setCommentIteratorSelector(String commentIteratorSelector) {
+		this.commentIteratorSelector = commentIteratorSelector;
+	}
+
+	public String getCommentTextSelector() {
+		return this.commentTextSelector;
+	}
+
+	public void setCommentTextSelector(String commentTextSelector) {
+		this.commentTextSelector = commentTextSelector;
 	}
 
 	public String getDescriptionSelector() {

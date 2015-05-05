@@ -21,22 +21,9 @@ public class Category implements Serializable {
 
 	private String title;
 
-	//bi-directional many-to-one association to Category
-	@ManyToOne
-	@JoinColumn(name="parent_id")
-	private Category category;
-
-	//bi-directional many-to-one association to Category
-	@OneToMany(mappedBy="category")
-	private List<Category> categories;
-
 	//bi-directional many-to-one association to CategoriesSite
 	@OneToMany(mappedBy="category")
 	private List<CategoriesSite> categoriesSites;
-
-	//bi-directional many-to-one association to CategoryProperty
-	@OneToMany(mappedBy="category")
-	private List<CategoryProperty> categoryProperties;
 
 	//bi-directional many-to-one association to Product
 	@OneToMany(mappedBy="category")
@@ -61,36 +48,6 @@ public class Category implements Serializable {
 		this.title = title;
 	}
 
-	public Category getCategory() {
-		return this.category;
-	}
-
-	public void setCategory(Category category) {
-		this.category = category;
-	}
-
-	public List<Category> getCategories() {
-		return this.categories;
-	}
-
-	public void setCategories(List<Category> categories) {
-		this.categories = categories;
-	}
-
-	public Category addCategory(Category category) {
-		getCategories().add(category);
-		category.setCategory(this);
-
-		return category;
-	}
-
-	public Category removeCategory(Category category) {
-		getCategories().remove(category);
-		category.setCategory(null);
-
-		return category;
-	}
-
 	public List<CategoriesSite> getCategoriesSites() {
 		return this.categoriesSites;
 	}
@@ -111,28 +68,6 @@ public class Category implements Serializable {
 		categoriesSite.setCategory(null);
 
 		return categoriesSite;
-	}
-
-	public List<CategoryProperty> getCategoryProperties() {
-		return this.categoryProperties;
-	}
-
-	public void setCategoryProperties(List<CategoryProperty> categoryProperties) {
-		this.categoryProperties = categoryProperties;
-	}
-
-	public CategoryProperty addCategoryProperty(CategoryProperty categoryProperty) {
-		getCategoryProperties().add(categoryProperty);
-		categoryProperty.setCategory(this);
-
-		return categoryProperty;
-	}
-
-	public CategoryProperty removeCategoryProperty(CategoryProperty categoryProperty) {
-		getCategoryProperties().remove(categoryProperty);
-		categoryProperty.setCategory(null);
-
-		return categoryProperty;
 	}
 
 	public List<Product> getProducts() {

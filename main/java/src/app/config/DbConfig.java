@@ -7,7 +7,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 @Configuration
-@PropertySource(value="classpath:hibernate.properties")
+@PropertySource(value="classpath:hibernate-dev.properties")
 // TODO classpath: - не правильно определяет путь для .jar приложения
 public class DbConfig {
 
